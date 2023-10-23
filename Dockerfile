@@ -1,7 +1,7 @@
 FROM caddy:alpine
 
 # Instalar NodeJS y NPM
-RUN apk update && apk add --no-cache nodejs NPM
+RUN apk update && apk add --no-cache nodejs npm
 
 WORKDIR /app
 
