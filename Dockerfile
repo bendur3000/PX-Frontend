@@ -3,7 +3,7 @@ FROM caddy:alpine
 # Instalar NodeJS y NPM
 RUN apk update && apk add --no-cache nodejs npm
 
-WORKDIR /app
+WORKDIR /
 
 COPY packaje*.json ./
 
